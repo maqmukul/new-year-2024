@@ -24,3 +24,29 @@
     font-size: 30px;
     color: rgb(216, 212, 203);
 }
+
+.deals {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.deals h1 {
+    font-size: 120px;
+    color: rgb(231, 78, 12);
+}
+
+.deals p {
+    font-size: 40px;
+    color: rgb(121, 50, 50);
+}
+
+.deals h4 {
+    font-size: 80px;
+    color: rgb(20, 19, 19);
+    margin-top: 1px;
+}
+
+.new-year {
+    padding-left: 320px;
+}
