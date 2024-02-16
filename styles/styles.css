@@ -1,10 +1,12 @@
 .header {
     text-align: center;
     background-image: url("../resources/Banner\ Image.png");
+    filter: brightness(0.5);
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
     width: 100%;
+    margin: 20px;
 }
 
 .header-title {
@@ -15,8 +17,8 @@
 }
 
 .header-title h1 {
-    font-size: 70px;
-    color: rgb(35, 34, 34);
+    font-size: 100px;
+    color: white;
     margin: 1px;
 }
 
@@ -27,8 +29,7 @@
 
 .deals {
     text-align: center;
-    margin: 5px;
-    padding: 5px;
+    margin: 20px;
 }
 
 .deals h1 {
@@ -45,19 +46,25 @@
     font-size: 80px;
     color: rgb(20, 19, 19);
     margin-top: 1px;
+    margin-bottom: 10px;
 }
 
-.new-year {
-    padding-left: 320px;
+.deals img {
+    margin-left: 80px;
+    margin-top: 1px;
+    margin-bottom: 200px;
 }
 
 .midnight-party {
     background-image: url("../resources/Vectorrr.png");
+    filter: brightness(0.5);
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
     width: 100%;
     display: flex;
+    margin: 20px;
+
 }
 
 .midnight-party-info {
@@ -88,4 +95,46 @@
     margin-left: 60px;
     margin-top: 20px;
     padding: 10px;
+}
+
+.coming-soon {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.new-best-offer {
+    margin-top: 1px;
+    margin-left: 20px;
+    padding: 50px;
+}
+
+.happy-new-year {
+    margin: 20px;
+    padding: 20px;
+}
+
+.coming-soon-image {
+
+    border: 10px solid red;
+    border-radius: 300px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.happy-new-year h2 {
+    color: red;
+    font-size: 50px;
+}
+
+.new-best-offer h3 {
+    font-size: 50px;
+    margin-top: 1px;
+}
+
+.new-best-offer h6 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 1px;
+    color: red;
 }
